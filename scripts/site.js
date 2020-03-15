@@ -1,0 +1,1 @@
+document.querySelector("section").innerHTML="<h2>"+blogs[0].title+"</h2><h3>"+blogs[0].summary+"</h3><div>"+blogs[0].post+"</div>";
