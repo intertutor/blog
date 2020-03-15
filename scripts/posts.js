@@ -1,6 +1,16 @@
 var blogs = [
     // insert here
 {
+"title":"spade-wielder",
+"summary":"an interesting use  of the indefinite article",
+"post":"I had just finished a lesson on the use of the articles with one of my classes, made up mostly of Japanese or Korean students. They seemed to have understood the basic rule that we generally use the indefinite article the first time we mention something, and the definite article thereafter. For example: <i>I was looking out of the window yesterday, when I saw a man pushing a baby in a pram. The man was screaming, the baby was screeching and the pram was squeaking.</i>. So what do I read in the newspaper as I sit down with my cup of tea just after the class? In an article about the increasing violence of fathers spectating at the soccer matches of their sons is the following extract:<blockquote><i> A man went to his car, drove it onto the pitch and began wielding a spade. Police were called and a man was arrested. A spade is also helping police with their enquiries into this harrowing crime.</i></blockquote>Ok, I made up the last sentence, but how to explain the use of the indefinite article in the second reference to the assailant? I guess I could tell the kids that its use is standard practice in crime reporting and can be interpreted as meaning that the police (or the journalist) do not wish to prejudice the case by seeming to imply that the spade-wielder is one and the same as the man arrested.|But somehow I don't think my grade 6 beginning students are ready for this kind of explanation - especially as they would be hearing it in the language they are trying to learn!"
+},
+{
+"title":"praise be",
+"summary":"examples of errors in student writing",
+"post":"One of the pleasures of being an ESL teacher occurs when students temporarily relieve the tedium of correcting written work by a wonderful mangling of the English language. Sometimes this mangling occurs through a simple orthographical error, such as that made by the student who had to create a sentence in the passive from the prompt:<br /><br /><em>I love it when teachers praise me for getting the answer right.<br /></em><br />Her suggestion was:<br /><br /><em>I love being braised for getting the answer right.<br /></em><br />She didn't have a clue what I was talking about when I expressed surprise at her love of being put on the spit. After an explanation of braising, spits and the English predilection for making pun at every opportunity, we had an interesting discussion of ESL students being put on the spot by teachers in their mainstream classes. They were unanimous in their condemnation of teachers who asked them to answer a question when they hadn't raised their hand.<br /><br />Anyway, this is getting away from the point. Another recent mangling can only have been an unintentional Freudian slip - unless I had underestimated the creative linguistic ability of the student concerned. I asked them to describe the worst holiday they ever had, and one of them wrote:<br /><br /><em>Then we lived in another youth hostile on another boring mountain.</em>"
+},
+{
 "title":"ridiculous clothes",
 "summary":"a salutary lesson for the teacher",
 "post":"I like to get feedback from my students at the end of the first term, so I ask them to fill out a survey with questions about their ESL class. For example I ask them their opinions about the topics covered, homework, tests, using the computer etc. It's gratifying when most students seem happy with what and how they've been taught (or just don't care enough to write comments to the contrary!) But just as you are basking in a self-satisfied  glow, you get to the last questionnaire, which conveys the student's dislike for everything about the class, including the ridiculous clothes you wear. <br /><br /> Oh well, it keeps you honest, as my American friends would say!"
@@ -12,3 +22,5 @@ var blogs = [
         },
         
     ];
+
+

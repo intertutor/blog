@@ -1,0 +1,12 @@
+main {
+    display:grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 500px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+h2 {
+    text-transform: capitalize;
+}
