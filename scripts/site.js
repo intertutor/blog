@@ -1,9 +1,22 @@
 // git push origin master
-show(0);
-fillAside();
+
+// ssh keys : https://www.youtube.com/watch?v=nQDFBd5NFA8
+
+
+$(function() {
+    show(0);
+    fillAside();
+  });
 
 function show(num) {
-    document.querySelector("section").innerHTML="<h2 class='bloghead'>"+blogs[num].title+"</h2><h3 class='blogsummary'> - "+blogs[num].summary+"</h3><div>"+insertParas(blogs[num].post)+"</div>";    
+    var numposts=blogs.length,
+        thisPost=num;
+    if (num===-1) {
+        thisPost=numposts-1;
+    }
+     
+    document.querySelector("section").innerHTML="<h2 class='bloghead'>"+blogs[thisPost].title+"</h2><h3 class='blogsummary'> - "+blogs[thisPost].summary+"</h3><div>"+insertParas(blogs[thisPost].post)+"</div>";    
+
 }
 function fillAside() {
     var temp=["<ul>"];
