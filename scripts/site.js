@@ -3,16 +3,16 @@ show(0);
 fillAside();
 
 function show(num) {
-    document.querySelector("section").innerHTML="<h2>"+blogs[num].title+"</h2><h3> - "+blogs[num].summary+"</h3><div>"+insertParas(blogs[num].post)+"</div>";    
+    document.querySelector("section").innerHTML="<h2 class='bloghead'>"+blogs[num].title+"</h2><h3 class='blogsummary'> - "+blogs[num].summary+"</h3><div>"+insertParas(blogs[num].post)+"</div>";    
 }
 function fillAside() {
-    var temp=[];
-    for (var i=1; i < blogs.length; i++) {
-      temp.push("<li data-post='"+ i +"' onclick='show("+i+")'>"+blogs[i].title+"</li>");
+    var temp=["<ul>"];
+    for (var i=0; i < blogs.length; i++) {
+      temp.push("<li title=' - "+ blogs[i].summary +"' onclick='show("+i+")'>"+blogs[i].title+"</li>");
     }
-    document.querySelector("aside").innerHTML=temp.join("<br>");
+    document.querySelector("aside").innerHTML="<h4>Previous posts</h4>"+temp.join("")+"</ul>";
 }
 
 function insertParas(blog) {
-    return "<p>"+blog.replace("|","</p><p>") + "</p>";
+    return "<p>"+blog.replace(/\|/g,"</p><p>") + "</p>";
 }

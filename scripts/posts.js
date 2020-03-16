@@ -20,7 +20,13 @@ var blogs = [
         "summary":"how to confuse ESL students",
         "post":"I love idioms. The most innocuous and everyday words can combine to make language that is completely impenetrable to non-native speakers. I remember an assembly in which the principal harangued the students on account of a collective lethargy that had set in. <i>You'd better start pulling your socks up!</i> she admonished. On another occasion I confused a student who had shown me a history text that she was supposed to read. <i>This is very difficult</i>, she said. My less than helpful reply was, <i>You can say that again!</i><br /><br />In fact, it's important to sensitize ESL students to this very common feature of colloquial language - otherwise they don't understand why they don't understand.  For this reason I often throw in idioms such as <i>Put a sock in it! Can you give me a hand! Cut that out!</i> or <i>That really gets my goat!   Your work is going to the dogs</i>; and get students to decipher what they mean.<br /><br />Of course, most idioms are fairly rigid and this makes them still more difficult to use correctly than to understand. Students have to learn how risible even the smallest of changes sound to a native speaker: <i>Put a sock on it! Can you give me the hand? Cut out that! That really gets my coat. Your work is going to the dog!</i>"
         },
-        
+        {
+            "title":"first post",
+            "summary":"introducing the language and culture blog",
+            "post":"Practise what you preach seems to be a good motto for a teacher. Since I, an ESL teacher at an international school in Germany, ask my students to write a regular journal, it does not seem unreasonable for them to expect me to do the same. So here it is. The first burning question of course, is: To be or not to be .. anonymous? And the answer, as in many cases, is: Yes and no. So yes, my name and the school I work at are not stated. But no, there aren't too many international schools in Germany, and with my blog title, it wouldn't need a Sherlock Holmes to track me down.|So why not be upfront? Well, although most of the blogs will be about language or German culture, I do want to reserve the right from time to time to be a little critical of some of the things that I experience in my day-to-day work at the school. On the other hand I have no intention of overtly fouling the nest. Suffice to say that the school, despite the inevitable irritations, is a great place to work at and has, by and large, happy, healthy and successful students. I have worked there for more than 20 years and hope to do so until I retire. | The 150 or so blog entries that follow have already been written and will be added one at a time at regular intervals until I bring myself up-to-date. They will then become more sporadic."
+            }
+                    
     ];
+
 
 

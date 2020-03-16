@@ -1,12 +1,36 @@
 main {
     display:grid;
     grid-column-gap: 50px;
-    grid-template-columns: 500px 100px;
+    grid-template-columns: 2fr 1fr;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
 }
 
-h2 {
+h2.bloghead {
     text-transform: capitalize;
+}
+
+.blogsummary {
+  color:red;
+}
+
+article {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  padding: 30px;
+}
+
+aside {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside ul {
+  list-style-type: none;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  color:blue;
+  cursor: pointer;
 }
